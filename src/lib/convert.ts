@@ -107,6 +107,7 @@ const createFilePath = (
 export const convert = async (options: ConvertOptions): Promise<string[]> => {
   const browser = await puppeteer.launch({
     executablePath: options.executablePath
+    , args: process.getuid() == 0 ? ['--no-sandbox'] : undefined
   })
 
   const page = await browser.newPage()
