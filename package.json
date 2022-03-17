@@ -1,10 +1,10 @@
 {
-  "name": "@akabeko/svg2png",
+  "name": "@JohanWinther/svg2png",
   "description": "Create PNG file from SVG file with puppeteer-core",
   "version": "1.0.1",
-  "author": "akabeko (https://akabeko.me/)",
+  "author": "Johan Winther",
   "license": "MIT",
-  "homepage": "https://github.com/akabekobeko/npm-svg2png#readme",
+  "homepage": "https://github.com/JohanWinther/npm-svg2png#readme",
   "engines": {
     "node": ">= 12"
   },
@@ -22,10 +22,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akabekobeko/npm-svg2png.git"
+    "url": "git+https://github.com/JohanWinther/npm-svg2png.git"
   },
   "bugs": {
-    "url": "https://github.com/akabekobeko/npm-svg2png/issues"
+    "url": "https://github.com/JohanWinther/npm-svg2png/issues"
   },
   "scripts": {
     "test": "jest",
